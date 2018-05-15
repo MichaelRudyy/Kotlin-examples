@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bd3dd0c-d911-46ce-9a50-655210a70dee" name="Default" comment="" />
+    <list default="true" id="3bd3dd0c-d911-46ce-9a50-655210a70dee" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/first/first/java/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/first/first/java/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin-examples/META-INF/Kotlin-examples.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin-examples/META-INF/Kotlin-examples.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin-examples/com/first/first/TypesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin-examples/com/first/first/TypesKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/first/first/Types.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/first/first/Types.kt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Person.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/first/first/Person.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="36">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -42,8 +50,36 @@
       <file leaf-file-name="Types.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/first/first/Types.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="288">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/first/first/java/Main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/first/first/java/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding>
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,16 +90,22 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/HelloWorld.kt" />
         <option value="$PROJECT_DIR$/src/com/first/first/Function.kt" />
-        <option value="$PROJECT_DIR$/src/com/first/first/Types.kt" />
         <option value="$PROJECT_DIR$/src/com/first/first/Person.kt" />
+        <option value="$PROJECT_DIR$/src/com/first/first/Types.kt" />
+        <option value="$PROJECT_DIR$/src/com/first/first/java/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/first/first/java/Main.kt" />
       </list>
     </option>
   </component>
@@ -77,10 +119,11 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1014" />
-    <option name="width" value="913" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1057" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -119,6 +162,15 @@
               <item name="first" type="462c0819:PsiDirectoryNode" />
               <item name="first" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Kotlin-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kotlin-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="first" type="462c0819:PsiDirectoryNode" />
+              <item name="first" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -147,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.first.first.PersonKt">
+  <component name="RunManager" selected="Kotlin.com.first.first.java.MainKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -197,6 +249,26 @@
       <option name="MAIN_CLASS_NAME" value="com.first.first.PersonKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
+    <configuration name="com.first.first.TypesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin-examples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.first.first.TypesKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="com.first.first.java.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin-examples" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.first.first.java.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -223,9 +295,13 @@
       <item itemvalue="Kotlin.HelloWorldKt" />
       <item itemvalue="Kotlin.com.first.first.PersonKt" />
       <item itemvalue="Kotlin.com.first.first.FunctionKt" />
+      <item itemvalue="Kotlin.com.first.first.TypesKt" />
+      <item itemvalue="Kotlin.com.first.first.java.MainKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.first.first.java.MainKt" />
+        <item itemvalue="Kotlin.com.first.first.TypesKt" />
         <item itemvalue="Kotlin.com.first.first.PersonKt" />
         <item itemvalue="Kotlin.com.first.first.FunctionKt" />
         <item itemvalue="Kotlin.HelloWorldKt" />
@@ -244,15 +320,15 @@
       <updated>1526371563854</updated>
       <workItem from="1526371568477" duration="4977000" />
       <workItem from="1526390019028" duration="1848000" />
-      <workItem from="1526394340835" duration="2336000" />
+      <workItem from="1526394340835" duration="4728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9161000" />
+    <option name="totallyTimeSpent" value="11553000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1014" y="0" width="913" height="1057" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -264,12 +340,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3586498" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3586498" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21962096" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20563674" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -364,17 +440,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/first/first/Types.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/first/first/Person.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state relative-caret-position="36">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/first/first/Person.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/first/first/Types.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="288">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/first/first/java/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/first/first/java/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
