@@ -7,7 +7,8 @@ fun main(args: Array<String>) {
     println(person.toString())
 }
 
-class Person1{
-    val name:String,
-            var isMarried: Boolean;
+class Person1(val name: String,
+              var isMarried: Boolean
+){
+    
 }
