@@ -1,6 +1,7 @@
 package com.first.first.color
 
 import com.first.first.color.Color.*
+import javafx.scene.effect.BlurType
 import java.time.Year
 
 fun getMnemonic(color: Color): String {
@@ -23,8 +24,15 @@ fun getWarmth(color: Color) = when (color) {
 
 fun getWarmth(x: Color, y: Color) = when (setOf(x, y)) {
     setOf(ORANGE, YELLOW) -> "Тёплый"
-    setOf(GREEN,BLUE) -> "Нейтральный"
+    setOf(GREEN, BLUE) -> "Нейтральный"
     setOf(INDIGO, VIOLET) -> "Холодный"
+    else -> throw Exception("Грязный цвет");
+}
+
+fun getWarmthOpt(x: Color, y: Color) = when {
+    (x == ORANGE && y == YELLOW) || (x == YELLOW && y == ORANGE) -> "Тёплый"
+    (x == GREEN && y == BLUE) || (x == BLUE && y == GREEN) -> "Нейтральный"
+    (x == INDIGO && y == VIOLET) || (x == VIOLET && y == INDIGO) -> "Холодный"
     else -> throw Exception("Грязный цвет");
 }
 
