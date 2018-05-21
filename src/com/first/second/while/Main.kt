@@ -1,6 +1,4 @@
-package com.first.first.`while`
-
-import sun.rmi.runtime.Log
+package com.first.second.`while`
 
 fun whileDo(a:Int){
     var b = a

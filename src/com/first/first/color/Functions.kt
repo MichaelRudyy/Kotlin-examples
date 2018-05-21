@@ -1,8 +1,6 @@
 package com.first.first.color
 
 import com.first.first.color.Color.*
-import javafx.scene.effect.BlurType
-import java.time.Year
 
 fun getMnemonic(color: Color): String {
     when (color) {
