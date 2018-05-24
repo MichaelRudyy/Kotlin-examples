@@ -1,4 +1,4 @@
-package com.first.third.collections
+package com.first.third
 
 fun main(args: Array<String>) {
     val set = hashSetOf(1,7,53)
