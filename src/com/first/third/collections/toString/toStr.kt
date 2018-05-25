@@ -1,4 +1,4 @@
-package com.first.third.toString
+package com.first.third.collections.toString
 
 fun <T> joinToString(
         collection: Collection<T>,

@@ -1,4 +1,4 @@
-package com.first.third
+package com.first.third.collections.toString
 
 fun main(args: Array<String>) {
     val set = hashSetOf(1,7,53)
@@ -7,4 +7,6 @@ fun main(args: Array<String>) {
     map[5]="five"
 
     println(list.javaClass)
+
+    println(list.joinToStringMy())
 }
