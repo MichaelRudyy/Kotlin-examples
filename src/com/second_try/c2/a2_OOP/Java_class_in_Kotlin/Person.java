@@ -1,5 +1,7 @@
 package com.second_try.c2.a2_OOP.Java_class_in_Kotlin;
 
+import java.io.BufferedReader;
+
 public class Person {
     private String name;
     private boolean isMarried;
