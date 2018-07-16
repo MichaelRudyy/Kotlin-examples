@@ -1,0 +1,4 @@
+package com.second_try.c4.a1.OOP.constructors
+
+class Person {
+}
